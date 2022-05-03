@@ -10,6 +10,11 @@ number in the formatted sentence that's already there.
 '''
 
 #code starts here
-number = input("Enter a number: ")
-print("Ten times your number is", 10 * number)
-print("Ninety-nine more than your number is", 99 + 10 * number)
+number1 = int(input("Enter a number: "))
+number2 = int(input("Enter another number: "))
+
+print("The sum of your numbers is", number1 + number2)
+
+print("Ninety-nine more than your number is", 99 + number1 + number2 )
+
+
